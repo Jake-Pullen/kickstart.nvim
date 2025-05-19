@@ -16,9 +16,15 @@ return {
   opts = {
     filesystem = {
       window = {
+        width = 20,
         mappings = {
           ['\\'] = 'close_window',
         },
+      },
+      filtered_items = {
+        visible = true,
+        hide_dotfiles = false,
+        hide_gitignored = false,
       },
     },
   },
